@@ -1,6 +1,6 @@
 NOTE: Please download the "resnet50_coco_best_v2.1.0.h5" model from https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/resnet50_coco_best_v2.0.1.h5 and place it in the root folder (this could not be done currently due to the size of the model). This will be integrated into the application to automatically download in the future.
 
-Extract the memcator.zip file and place the images of people you want to be recognized when scanning the images. Some sample images are already present. Preferably the images should be front facing. The images should contain only 1 person.
+Download the repository and place the images of people you want to be recognized inside "knwon_people_images" folder. Some sample images are already present. Preferably the images should be front facing. The images should contain only 1 person.
 
 There are 3 utilities inside this zip file:
 ***memcator.insert***
@@ -21,8 +21,6 @@ memcator/memcator.search ameer+bottle
 This utility removes all indexes done in the database.
 memcator/memcator.delete
 
-=====================================================
-Please also refer to demo videos to see how it works.
 
 =====================================================
 Followinglibraries were used in Python 3.8
