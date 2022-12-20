@@ -1,0 +1,11 @@
+***memcator.search***
+./memcator/memcator/memcator.search ameer
+./memcator/memcator/memcator.search bottle
+./memcator/memcator/memcator.search ameer
+
+***memcator.insert***
+find ./images/*.* -exec ./memcator/memcator/memcator.insert {} +;
+
+***memcator.delete***
+./memcator/memcator/memcator.delete
+
