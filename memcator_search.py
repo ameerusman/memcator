@@ -78,7 +78,7 @@ def find_objects_in_list():
         obj_not_to_find = str(overall_objects.pop()).split('-')
 
         obj_to_find = overall_objects.append(obj_not_to_find[0])
-        obj_not_to_find = []
+        # obj_not_to_find = [] #This created an issue by resetting the list which is used after this.
         obj_not_to_find = obj_not_to_find[1:]
         string_status = "Only minus"
 
