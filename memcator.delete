@@ -1,0 +1,6 @@
+#!/bin/bash
+BASEDIR=$(dirname "$0")
+FULL_PATH="$BASEDIR/memcator_database.json"
+echo "$FULL_PATH"
+rm -rf $FULL_PATH 
+
